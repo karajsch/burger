@@ -9,4 +9,5 @@ CREATE TABLE burgers (
     devoured BOOLEAN DEFAULT false,
     createdAt TIMESTAMP NOT NULL, 
     PRIMARY KEY (id)
+
 );

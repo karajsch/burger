@@ -1,67 +1,60 @@
 body {
     font-family: 'Roboto Slab', serif;
-    background-color: #14342b;
+    background-color: #264653;
 }
 
 .title {
     font-family: 'Rubik', sans-serif;
-    font-size: 60px;
-    color: #bab700;
-    padding: 20px;
-}
-
-.burger-title {
-    color: #FF579F;
-    margin-top: 10px;
+    font-size: 80px;
+    color: #E76F51;
+    padding: 15px;
+    border-radius: 10px;
+    border-bottom: 20px dotted #2A9D8F;
+    border-top: 20px dotted #2A9D8F;
     margin-bottom: 20px;
 }
 
-#list-devoured {
-    margin: 10px;
-    height: 300px;
-    overflow: auto;
-    background-color: #60935D;
+.burger-title {
+    color: #F4A261;
+    margin: 24px;
 }
 
+#list-devoured,
 #list-burgers {
     margin: 10px;
     height: 300px;
+    border-radius: 10px;
     overflow: auto;
-    background-color: #BBDFC5;
+    background-color: #377466;
 }
 
-.container {
-    padding: 10px;
-}
-
+.devoured-burgers,
 .available-burgers {
-    overflow: hidden;
-    font-size: 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
     margin: 8px;
-    border: 2px solid #62EDD6;
-    padding: 3px;
-}
-
-.devoured-burgers {
-    font-size: 20px;
-    margin: 8px;
-    border: 2px solid #FE65B7;
-    padding: 3px;
+    border: 2px solid #bab700;
+    padding: 10px;
 }
 
 #burger-ready {
     float: right;
-    border-radius: 8px;
-    -webkit-transition-duration: 0.4s;
-    /* Safari */
-    transition-duration: 0.4s;
-    background-color: #62EDD6;
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    text-align: center;
+    border: 1px solid transparent;
+    margin: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
 }
 
 #burger-ready:hover {
-    color: #000000;
-    border: 3px solid #62EDD6;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffc107;
+    border-color: #ffc107;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 #add-burger {
@@ -72,30 +65,17 @@ body {
 
 #enter-burger {
     font-size: 25px;
-    width: 200px;
-    height: 50px;
-    align-content: center;
-    color: #000000;
-    background-color: #FE65B7;
+    border-radius: 10px;
+    color: white;
+    background-color: #377466;
 }
 
 #submit-burger {
-    font-size: 20px;
-    height: 40px;
-    margin: 0 auto;
-    width: 200px;
-    padding: 10px;
-    color: #000000;
-    background-color: #62EDD6;
+    font-size: 25px;
 }
 
-#submit-burger:hover {
-    border: 3px solid #62EDD6;
-    color: #000000;
-    background-color: #ffffff;
-}
 
-#gif {
-    width: 300px;
+#png {
+    max-width: 300px;
     height: auto;
 }
