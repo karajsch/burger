@@ -49,6 +49,7 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
+    display: inline-block
 }
 
 #burger-ready:hover {
@@ -73,7 +74,6 @@ body {
 #submit-burger {
     font-size: 25px;
 }
-
 
 #png {
     max-width: 300px;
